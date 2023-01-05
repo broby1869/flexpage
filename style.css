@@ -36,3 +36,16 @@ header {
     display: flex;
     justify-content: center;
 }
+
+.two {
+    background-color: floralwhite;
+}
+
+.info {
+    text-align: center;
+}
+
+.thumbnails {
+    display: flex;
+
+}
