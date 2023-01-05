@@ -12,5 +12,21 @@ body {
 header {
     display: flex;
     flex: none;
+    justify-content: space-between;
 }
 
+.logo {
+    font-size: 16px;
+    font-weight: 800;
+    flex: 0 1 auto;
+}
+
+.headlinks {
+    flex: 0 1 auto;
+    font-size: 16px;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
