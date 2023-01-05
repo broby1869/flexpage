@@ -58,8 +58,10 @@ header {
 
 }
 
-.footer {
+.footer,
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
