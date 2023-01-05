@@ -3,10 +3,11 @@ business webpage*/
 
 
 
-body {
+.page {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+  
 }
 
 header,
@@ -41,6 +42,7 @@ header {
 
 .one {
     background-color: grey;
+    flex: 1 1 auto;
     display: flex;
     justify-content: center;
 }
