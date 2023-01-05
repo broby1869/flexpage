@@ -9,6 +9,14 @@ body {
     justify-content: space-between;
 }
 
+header,
+.one,
+.two,
+.three,
+.footer {
+    padding: 0 100px;
+}
+
 header {
     display: flex;
     flex: none;
@@ -48,4 +56,10 @@ header {
 .thumbnails {
     display: flex;
 
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
