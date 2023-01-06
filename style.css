@@ -72,6 +72,10 @@ header {
     gap: 24px;
 }
 
+.three {
+    background-color: rgb(235, 218, 218);
+}
+
 .info {
     text-align: center;
 }
@@ -82,10 +86,33 @@ header {
 
 }
 
-.footer,
-.container {
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    
+}
+
+
+.container,
+.container button {
+    background-color: rgb(68, 134, 233);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.container {
+    margin: 32px;
+    padding: 18px 48px;
+}
+
+.container button {
+    padding: 0 4px;
+    border-radius: 4px;
+}
