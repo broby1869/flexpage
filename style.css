@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  
+    
 }
 
 header,
@@ -67,13 +67,13 @@ header {
     gap: 32px;
 }
 
+.left {
+    max-width: 400px;
+}
+
 .two {
     background-color: floralwhite;
     gap: 24px;
-}
-
-.three {
-    background-color: rgb(235, 218, 218);
 }
 
 .info {
@@ -85,6 +85,20 @@ header {
     gap: 12px;
 
 }
+
+.three {
+    background-color: rgb(235, 218, 218);
+}
+
+.quote {
+    max-width: 600px;
+}
+
+.credit {
+    margin: 0 0 0 300px;
+}
+
+
 
 .footer {
     display: flex;
