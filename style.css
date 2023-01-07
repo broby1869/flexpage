@@ -9,8 +9,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
 header,
@@ -25,7 +24,8 @@ header,
 .one,
 .two,
 .three {
-    flex: 2 0 auto;
+    min-height: 200px;
+    flex: 2 1 auto;
 }
 
 .two,
@@ -41,29 +41,39 @@ header,
 }
 
 header {
+    background-color: rgb( 45, 45, 20);
+    color: rgb(255, 255, 255);
     display: flex;
     flex: none;
     justify-content: space-between;
 }
 
 .logo {
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 800;
     flex: 0 1 auto;
 }
 
 .headlinks {
+    color: rgb(255, 255, 255);
     flex: 0 1 auto;
     font-size: 16px;
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    gap: 24px;
     padding: 0;
     margin: 0;
 }
 
+a {
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
 .one {
-    background-color: grey;
+    background-color: rgb(50, 50, 35);
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     gap: 32px;
@@ -73,6 +83,28 @@ header {
     max-width: 400px;
 }
 
+.fatline {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.topbutton {
+    margin: 8px 0 0 0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 134, 233);
+    font-size: 12px;
+    padding: 0 22px;
+    
+    border-radius: 4px;
+  
+}
+}
+
+p {
+    font-size: 12px;
+    font-weight: 100;
+}
+
 .two {
     background-color: floralwhite;
     gap: 24px;
@@ -80,6 +112,8 @@ header {
 
 .info {
     text-align: center;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .thumbnails {
@@ -94,10 +128,12 @@ header {
 
 .quote {
     max-width: 600px;
+    font-size: 24px;
 }
 
 .credit {
-    margin: 0 0 0 300px;
+    font-weight: 600;
+    margin: 4px 0 0 300px;
 }
 
 
@@ -124,14 +160,23 @@ header {
 }
 
 .container {
+    min-width: 500px;
     margin: 32px;
     padding: 18px 48px;
+}
+
+.call {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.small {
+    font-size: 12px;
 }
 
 .container button {
     font-size: 12px;
     padding: 0 22px;
-    border-radius: 4px;
     box-shadow: 0em;
     border: 2px solid rgb(255, 255, 255);
 }
