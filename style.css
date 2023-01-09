@@ -98,11 +98,13 @@ a {
     border-radius: 4px;
   
 }
-}
 
-p {
-    font-size: 12px;
-    font-weight: 100;
+#big {
+    width: 400px;
+    height: 225px;
+    background-image: url(##);
+    background-size: contain;
+    border: none;
 }
 
 .two {
@@ -122,10 +124,18 @@ p {
 
 }
 
-.thunbnails img {
-    width: 100px;
-    height: 100px;
+.img {
+    width: 125px;
+    height: 125px;
+    background-image: url(##);
+    background-size: contain;
     border: 2px solid rgb(68, 134, 233);
+    border-radius: 4px;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 100;
 }
 
 .three {
