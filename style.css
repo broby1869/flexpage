@@ -120,7 +120,8 @@ a {
 
 .thumbnails {
     display: flex;
-    gap: 12px;
+    gap: 32px;
+    flex-content
 
 }
 
@@ -136,6 +137,7 @@ a {
 p {
     font-size: 12px;
     font-weight: 100;
+    max-width: 125px;
 }
 
 .three {
