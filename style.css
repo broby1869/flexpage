@@ -125,13 +125,12 @@ a {
 
 }
 
-.img {
+.image {
     width: 125px;
     height: 125px;
-    background-image: url(##);
-    background-size: contain;
     border: 2px solid rgb(68, 134, 233);
     border-radius: 4px;
+    object-fit: contain;
 }
 
 p {
