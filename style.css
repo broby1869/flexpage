@@ -99,12 +99,12 @@ a {
   
 }
 
-#big {
+
+.couch {
     width: 400px;
     height: 225px;
-    background-image: url(##);
-    background-size: contain;
     border: none;
+    object-fit: contain;
 }
 
 .two {
