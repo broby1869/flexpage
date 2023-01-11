@@ -1,7 +1,7 @@
 /* Style sheet for Churro's flexpage
 business webpage*/
 
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Handlee&family=Slackey&family=Rubik+Vinyl&display=swap');
 
 body {
     margin: 0;
@@ -17,6 +17,7 @@ header,
 .two,
 .three,
 .footer {
+    font-family: 'Handlee', cursive;
     padding: 0 100px;
     align-items: center;
 }
@@ -26,13 +27,6 @@ header,
 .three {
     min-height: 200px;
     flex: 2 1 auto;
-}
-
-.three {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .footer {
@@ -56,7 +50,6 @@ header {
 .headlinks {
     color: rgb(255, 255, 255);
     flex: 0 1 auto;
-    font-size: 16px;
     list-style-type: none;
     display: flex;
     gap: 24px;
@@ -65,7 +58,7 @@ header {
 }
 
 a {
-    font-size: 12px;
+    font-size: 16px;
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
@@ -79,35 +72,39 @@ a {
 }
 
 .left {
-    max-width: 400px;
+    width: 500px;
+    flex: none;
 }
 
-.fatline {
-    font-size: 32px;
+.one .left .fatline {
+    font-size: 38px;
     font-weight: 900;
+}
+
+.left div {
+    font-size: 18px;
 }
 
 .topbutton {
     margin: 8px 0 0 0;
     color: rgb(255, 255, 255);
     background-color: rgb(68, 134, 233);
+    font-family: 'Slackey', cursive;
     font-size: 12px;
     padding: 0 22px;
     border: 1px solid rgb(255, 255, 255);
-    border-radius: 4px;
-  
+    border-radius: 4px;  
 }
 
-
 .couch {
-    width: 700px;
+    width: 550px;
     border: none;
     object-fit: contain;
+    margin: 64px;
 }
 
 .two {
     background-color: floralwhite;
-    gap: 24px;
 }
 
 .info {
@@ -121,7 +118,13 @@ a {
     display: flex;
     gap: 32px;
     justify-content: space-around;
+}
 
+.thumbs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .image {
@@ -130,26 +133,32 @@ a {
     border: 2px solid rgb(68, 134, 233);
     border-radius: 12px;
     object-fit: contain;
-    flex: 1 1 auto; /*Did not work becuase this
+    flex: 0 1 auto; /*Did not work becuase this
     is a child of the thumbnails div and the flex
     is not inherited...*/
 }
 
 p {
-    font-size: 12px;
-    font-weight: 100;
-    max-width: 125px;
-    
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 175px;
+    text-align: center;
     flex: 1 1 auto; /*did not work*/
 }
 
 .three {
-    background-color: rgb(210, 203, 235);
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
     max-width: 600px;
-    font-size: 24px;
+    font-size: 32px;
+    font-weight: 300;
+    font-family: 'Dancing Script', cursive;
 }
 
 .credit {
@@ -168,7 +177,7 @@ p {
 .container {
     display: flex;
     justify-content: space-between;
-    gap: 16px;
+    gap: 24px;
     
 }
 
@@ -192,10 +201,11 @@ p {
 }
 
 .small {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .container button {
+    font-family: 'Slackey', cursive;
     font-size: 12px;
     padding: 0 22px;
     border: 1px solid rgb(255, 255, 255);
